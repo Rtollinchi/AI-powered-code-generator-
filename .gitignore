@@ -1,0 +1,25 @@
+# Environment variables (API keys, etc.)
+.env
+.env.local
+
+# OS files
+.DS_Store
+
+# IDE files
+.vscode/settings.json
+.idea/
+
+# Python (if using Python)
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Node.js (if using Node.js)
+node_modules/
+npm-debug.log*
+
+# Generated/output files
+output/
+generated/
+temp/
