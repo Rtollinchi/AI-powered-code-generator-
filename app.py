@@ -10,7 +10,6 @@ load_dotenv()
 os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY")
 client = openai.OpenAI()
 
-# Our first function - keep it simple!
 def generate_code(user_query, programming_language):
     """Generate code based on what the user asks for"""
 
