@@ -129,14 +129,14 @@ def save_to_file(code, language, filename):
         print(f"❌ Error saving: {e}")
         return f"❌ Couldn't save file: {str(e)}"
 
-# Add some style
+# Style
 custom_css = """
 .gradio-container {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
 }
 """
 
-# Create a simple UI
+# Simple UI
 with gr.Blocks(css=custom_css) as demo:
     gr.Markdown("# 🚀 Simple Code Generator")
 
@@ -187,4 +187,10 @@ with gr.Blocks(css=custom_css) as demo:
 
 
 # Launch the app
-demo.launch()
+if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 7860))
+    demo.launch(
+        server_name="0.0.0.0",
+        server_port=port,
+        share=False
+    )
