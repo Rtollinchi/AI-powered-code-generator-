@@ -2,10 +2,6 @@
 
 An intelligent code generation tool powered by OpenAI's GPT-4 API that enables developers to automatically generate, explain, and save code in multiple programming languages through an intuitive Gradio interface.
 
-![Python](https://img.shields.io/badge/python-3.7+-blue.svg)
-![OpenAI](https://img.shields.io/badge/OpenAI-GPT--4-green.svg)
-![Gradio](https://img.shields.io/badge/Gradio-UI-orange.svg)
-
 ## 🌟 Features
 
 - **Multi-Language Support**: Generate code in Python, JavaScript, and Java
@@ -17,11 +13,7 @@ An intelligent code generation tool powered by OpenAI's GPT-4 API that enables d
 
 ## 🚀 Live Demo
 
-[View Live Demo](https://your-deployed-app.onrender.com) *(Add your Render URL here)*
-
-## 📸 Screenshots
-
-![Code Generator Interface](screenshot.png) *(Optional: Add a screenshot)*
+[View Live Demo](https://ai-powered-code-generator-j7qe.onrender.com)
 
 ## 🛠️ Technologies Used
 
@@ -118,19 +110,6 @@ __pycache__/
 .venv/
 venv/
 ```
-
-## 🌐 Deployment
-
-This app is deployed on [Render](https://render.com). To deploy your own instance:
-
-1. Fork this repository
-2. Create a new Web Service on Render
-3. Connect your GitHub repository
-4. Add environment variable: `OPENAI_API_KEY`
-5. Use these settings:
-   - **Build Command**: `pip install -r requirements.txt`
-   - **Start Command**: `python app.py`
-
 ## 👤 Author
 
 **Rubin Tollinchi**
